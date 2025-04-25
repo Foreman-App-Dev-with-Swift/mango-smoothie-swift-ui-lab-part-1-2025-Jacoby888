@@ -7,7 +7,7 @@
 
 
 /*
- 
+  
  Mango Smoothie SwiftUI Lab
  In this lab, you will use some text and circle views  to create a basic app screen that displays the ingredients to make a mango smoothie. The circles will be in the next lab.
  
@@ -94,11 +94,14 @@ struct ContentView: View {
         
         VStack {
 //Work below in this VStack! ************
-                Text("Hello")
-                   
+    
+            Text("Mango Smoothie!")
+                .font(.headline)
+                .fontWeight(.heavy)
+        Text("Mango, Banana, Water")
+                     Text("320 Calories")
             
-            
-        
+
 //Work above in this VStack! ************
         }
         
