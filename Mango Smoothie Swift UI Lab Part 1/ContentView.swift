@@ -84,25 +84,27 @@ Notice how the two words are on top of each other
  How do you get the INSPECTOR?
  Control + Option + (click on the text/object)
  */
- 
- 
+
+
 import SwiftUI
- 
+
 struct ContentView: View {
     
     var body: some View {
         
-        VStack {
-//Work below in this VStack! ************
-    
+        VStack(alignment: .leading) {
+            //Work below in this VStack! ************
+            
             Text("Mango Smoothie!")
                 .font(.headline)
                 .fontWeight(.heavy)
-        Text("Mango, Banana, Water")
-                     Text("320 Calories")
+            Text("Mango, Banana, Water")
+            Text("320 Calories")
+                .font(.caption)
+                .fontWeight(.thin)
             
-
-//Work above in this VStack! ************
+            
+            //Work above in this VStack! ************
         }
         
         
@@ -110,7 +112,7 @@ struct ContentView: View {
     
     
 }
- 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
